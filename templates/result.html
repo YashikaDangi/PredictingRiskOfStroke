@@ -11,7 +11,7 @@
 
     <div class="container">
         <form action="{{ url_for('predict')}}" method="post">
-            <h2 class='container-heading'><span class="heading_font">Stroke Prediction</span></h2>
+            <h2 class='container-heading'><span class="heading_font">Predicting Risk Of Stroke</span></h2>
 
         <br><br><br><br>
 
@@ -22,7 +22,7 @@
                 <br><br><br><br><br><br>
 				<img class="gif" src="{{ url_for('static', filename='no.gif')}}" alt="STROKE Image">
 			{% elif prediction==0 %}
-				<h1><span class='safe'>Congratulation!<br><br>You DON'T have Stroke.</span></h1>
+				<h1><span class='safe'>You DON'T have Stroke.</span></h1>
 				<img class="gif1" src="{{ url_for('static', filename='yes.webp')}}" alt="Not STROKE Image">
 			{% endif %}
 		</div>
