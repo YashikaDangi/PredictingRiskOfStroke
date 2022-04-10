@@ -15,5 +15,4 @@ This repository consists of files required to deploy a Machine Learning Web App 
 - Pandas
 - Numpy
 - Scikit-learn
-- Pycharm
 - Heroku
