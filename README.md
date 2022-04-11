@@ -17,7 +17,7 @@ This repository consists of files required to deploy a Machine Learning Web App 
 - Scikit-learn
 - Heroku
 
- #Attribute Information
+ # Attribute Information
     1) id: unique identifier
     2) gender: Male, Female or Other
     3) age: age of the patient
