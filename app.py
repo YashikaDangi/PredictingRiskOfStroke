@@ -101,9 +101,9 @@ def predict():
                             smoking_status_formerly_smoked, smoking_status_never_smoked, smoking_status_Smokes]])
         prediction = model.predict(values)
 
-        return render_template('result.html', prediction=prediction)
+        return render_template('index.html', prediction=prediction)
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
 
