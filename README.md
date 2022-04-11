@@ -11,6 +11,7 @@ This repository consists of files required to deploy a Machine Learning Web App 
 - Flask
 - HTML
 - CSS
+- Bootstrap
 - Machine Learning
 - Pandas
 - Numpy
